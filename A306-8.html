@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COLLEGE ADMISSION FORM</title>
+</head>
+<body>
+    <form>
+    <center>
+    <h3><marquee bgcolor="yellow";font-size="400">COLLEGE ADMISSION FORM</marquee></h3>
+    <center><h3>COLLEGE NAME</h3></center>
+    <p>FORM</p>
+    <table>
+        <TH>PERSONAL INFORMATION</TH>
+        <tr>
+            <td>FIRST NAME</td>
+            <td><input type="text" name="textname"></td><br>
+
+            <td>LAST NAME</td>
+            <td><input type="text" name="textname"></td><br>
+        </tr>
+
+        <tr>
+        <td>DOB</td>
+        <td><input type="date" name="txtDOB"></td><br>
+        <td>ADDRESS</td>
+        <td><input type="text" name="txtAddr"></td><br>
+        </tr>
+
+
+        <td>GENDER</td>
+        <td>
+        <input type="radio" name="Gender" value="Male" /> Male
+        <input type="radio" name="Gender" value="Female" />Female 
+        </td>
+        <br><br>
+        <tr>
+        <td>HOBBIES</td>
+        <td>
+        <input type="checkbox" name="Hobby_Drawing" value="Drawing" />Drawing
+        <input type="checkbox" name="Hobby_Singing" value="Singing" /> Singing
+        <input type="checkbox" name="Hobby_Dancing" value="Dancing" /> Dancing
+        Others
+        <input type="checkbox" name="Hobby_Other" value="Other">
+        <input type="text" name="Other_Hobby" maxlength="30" />
+        </td>
+        </tr>
+        </tr><br><br>
+        <tr>
+            <td>EMAIL ID</td>
+        <td><input type="text" name="txtemail"></td><br>
+        </tr>
+        <tr>
+            <td>COURSES APPLIED FOR</td>
+            <td>
+            <input type="radio" name="Course_BCA" value="BCA">BCA
+            <input type="radio" name="Course_BCom" value="B.Com">B.com
+            <input type="radio" name="Course_BSc" value="B.Sc">B.Sc
+            <input type="radio" name="Course_BA" value="B.A">B.A
+            </td>
+            </tr>
+        <br>
+        <TH>DOCUMENT REQUIRED</TH>
+        <TR>
+            <TD>Upload marksheet</TD>
+            <td>
+                <input type="file" name="txtmarksheet"><br>
+            </td>
+        </TR>
+            <TD>Upload Caste cerficate</TD>
+            <td>
+                <input type="file" name="txtcastecertificate"><br>
+            </td>
+        </TR>
+            <td>Any doubt/query</td>
+        <td><input type="text" name="txtexp"></td><br>
+        </tr>
+    </table>
+    </form>
+     <input type="submit" value="SUBMIT">
+    </center>
+</body>
+</html>
